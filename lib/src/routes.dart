@@ -29,4 +29,6 @@ class RoutesManager
 
   Route getRoute(index) => _routes[index];
 
+  removeRoute(index) => _routes.removeAt(index);
+
 }
