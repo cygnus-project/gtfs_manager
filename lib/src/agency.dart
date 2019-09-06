@@ -26,4 +26,6 @@ class AgencyManager
 
   Agency getAgency(index) => _agencies[index];
 
+  removeAgency(index) => _agencies[index];
+
 }
